@@ -28,6 +28,7 @@ nlu:
     - bye
     - adios cuidese
     - hasta luego
+    - Pase buen dia
 
 - intent: request
   examples: |
