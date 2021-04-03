@@ -4,89 +4,37 @@ nlu:
 - intent: greet
   examples: |
     - hey
+    - hola
+    - buenas
+    - buenos dias
+    - buenas tardes
     - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - hey hola
+    - buenas buenas
+    - buen dia
 
 - intent: goodbye
   examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
+    - feliz dia
+    - nos vemos
+    - adios
+    - ok adios
+    - buenas noches
+    - salú
+    - descansa
+    - que tenga buen dia
+    - nos vemos al rato
     - bye bye
-    - see you later
+    - bye
+    - adios cuidese
+    - hasta luego
 
-- intent: affirm
+- intent: request
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - ¿Podria ver los horarios?
+    - Quiero horarios de clase
+    - Necesito las horas clase y sus dias
+    - ¿Podés por favor ponerme los horarios de clase?
+    - ¿Cuáles son los horarios?
+    - Necesito los horarios
 
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?

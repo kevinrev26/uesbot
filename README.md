@@ -2,7 +2,7 @@
 
 # Prerequisites
 
-Rasa installation (If will be better to run all the code inside a python virtual environment):
+Rasa installation (It will be better to run all the code inside a python virtual environment):
 
 `pip3 install -U pip`
 
