@@ -2,7 +2,7 @@ from rasa.nlu.model import Interpreter
 from Dispatcher import Dispatcher
 class Translator():
 
-    model_path = "models/20210524-183518/nlu"
+    model_path = "models/20210524-190749/nlu"
     interpreter = None
     dispatcher = Dispatcher()
 
@@ -13,4 +13,4 @@ class Translator():
     def output_result(self, text):
         message = str(text).strip()
         out = self.interpreter.parse(message)
-        self.dispatcher.select_action(out["intent"]["name"])
+        return self.dispatcher.select_action(out["intent"]["name"])

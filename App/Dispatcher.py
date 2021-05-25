@@ -22,14 +22,19 @@ class Dispatcher():
         
 
     def greeter(self):
-        print("¡Hola! Bienvenido")
+        print("¡Hola! Bienvenido, soy UESBOT y voy a ayudarte con tu inscripcion")
+        return False
 
     def request(self):
         # Mockup data from API maybe?
-        print("Los horarios son los siguientes: MAT315 a las 10:00 AM y PY115 a las 3:00 PM")
+        print("Los horarios son los siguientes: Grupo 1 a las 10:00 AM y Grupo 2 a las 3:00 PM")
+        return False
     
     def goodbye(self):
-        print("Perfecto, tus horarios han sido inscritos")
+        print("Hasta luego")
+        return True
+
 
     def enroll(self):
         print("Perfecto, el horario se ha inscrito")
+        return False

@@ -8,6 +8,7 @@ nlu:
     - buenas
     - buenos dias
     - buenas tardes
+    - buenas noches
     - hello
     - hey hola
     - buenas buenas
@@ -19,7 +20,6 @@ nlu:
     - nos vemos
     - adios
     - ok adios
-    - buenas noches
     - salú
     - descansa
     - que tenga buen dia
