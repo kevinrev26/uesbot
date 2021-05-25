@@ -39,3 +39,11 @@ nlu:
     - ¿Cuáles son los horarios?
     - Necesito los horarios
 
+- intent: enroll
+  examples: |
+    - Grupo 1
+    - Grupo 2
+    - Grupo 3
+    - Paquete 1
+    - Paquete 2
+    - Paquete 3

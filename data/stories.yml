@@ -8,8 +8,12 @@ stories:
   - action: utter_greet
   - intent: request
   - action: utter_request
+  - intent: enroll
+  - action: utter_enroll
   - intent: goodbye
   - action: utter_goodbye
+
+# - story: happy path 2
 
 # - story: sad path 1
 #   steps:

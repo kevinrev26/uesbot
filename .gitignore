@@ -1,2 +1,4 @@
 models/
 results/
+env/
+App/__pycache__

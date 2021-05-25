@@ -4,6 +4,7 @@ intents:
   - greet
   - goodbye
   - request
+  - enroll
 
 responses:
   utter_greet:
@@ -14,6 +15,9 @@ responses:
 
   utter_goodbye:
   - text: "¡Un gusto poder ayudarte!"
+
+  utter_enroll:
+  - text: "Se ha inscrito el horario"
 
 session_config:
   session_expiration_time: 60

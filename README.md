@@ -8,7 +8,7 @@ Rasa installation (It will be better to run all the code inside a python virtual
 
 `pip3 install rasa`
 
-This will take some time to comple, be patient
+This will take some time to complete, be patient
 
 
 # Train model

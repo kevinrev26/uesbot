@@ -13,6 +13,10 @@ stories:
     intent: request
   - action: utter_request
   - user: |
+      voy a inscribir el paquete 1
+    intent: enroll
+  - action: utter_enroll
+  - user: |
       "Esto es todo, hasta luego"
     intent: goodbye
   - action: utter_goodbye
